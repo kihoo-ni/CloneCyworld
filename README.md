@@ -46,7 +46,9 @@ BGM 유튜브 api 가져와서 구현함(주크박스에서 노래 등록할 경
  ![방명록](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/0a5c9de8-a23a-4431-bb91-d586a0d4c63f)
 
 다른 유저가 자신의 방명록에 글남기기 가능.
+
 해당 미니홈피의 주인은 자신의 미니홈피에 다른 유저가 남긴 방명록, 댓글 삭제가능.
+
 다른 유저의 경우 본인이 작성한 방명록, 댓글 삭제가능.
 
 *** 
@@ -58,6 +60,7 @@ BGM 유튜브 api 가져와서 구현함(주크박스에서 노래 등록할 경
 *** 
 6. 주크박스+음악등록
  ![주크박스](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/86f7a4ca-1608-4dc0-829f-5798c5a54563)
-![음악등록](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/140a4d17-6bd1-4f0d-909c-53a2bc7860c8)
+![음악등록](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/01b5503b-728c-46bc-aee1-e7b6b2697fd1)
+
 
 ***
