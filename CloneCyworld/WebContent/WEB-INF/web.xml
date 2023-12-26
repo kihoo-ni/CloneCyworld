@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>CloneCyworld</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>controller.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	
+  <servlet>
+		<servlet-name>IdCheckServlet</servlet-name>
+		<servlet-class>controller.IdCheckServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IdCheckServlet</servlet-name>
+		<url-pattern>/IdCheckServlet</url-pattern>
+	</servlet-mapping>
+	
+	  <servlet>
+			<servlet-name>LoginServlet</servlet-name>
+			<servlet-class>controller.LoginServlet</servlet-class>
+		</servlet>
+	  <servlet-mapping>
+			<servlet-name>LoginServlet</servlet-name>
+			<url-pattern>/LoginServlet</url-pattern>
+	  </servlet-mapping>
+	
+  	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>controller.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	
+	<filter>
+		<filter-name>AuthFilter</filter-name>
+		<filter-class>filter.AuthFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AuthFilter</filter-name>
+		<url-pattern>/home.jsp</url-pattern>
+	</filter-mapping>
+	
+	<servlet>
+		<servlet-name>WriteBookServlet</servlet-name>
+		<servlet-class>controller.WriteBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WriteBookServlet</servlet-name>
+		<url-pattern>/WriteBookServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListBookServlet</servlet-name>
+		<servlet-class>controller.ListBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListBookServlet</servlet-name>
+		<url-pattern>/ListBookServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ReplyAddServlet</servlet-name>
+		<servlet-class>controller.ReplyAddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReplyAddServlet</servlet-name>
+		<url-pattern>/ReplyAddServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteReplyServlet</servlet-name>
+		<servlet-class>controller.deleteReplyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteReplyServlet</servlet-name>
+		<url-pattern>/deleteReplyServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ListPictureServlet</servlet-name>
+		<servlet-class>controller.ListPictureServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListPictureServlet</servlet-name>
+		<url-pattern>/ListPictureServlet</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>deleteGuestBook</servlet-name>
+		<servlet-class>controller.deleteGuestBook</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteGuestBook</servlet-name>
+		<url-pattern>/deleteGuestBook</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>musicaddServlet</servlet-name>
+		<servlet-class>controller.musicaddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>musicaddServlet</servlet-name>
+		<url-pattern>/musicaddServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>selectmusicServlet</servlet-name>
+		<servlet-class>controller.selectmusicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>selectmusicServlet</servlet-name>
+		<url-pattern>/selectmusicServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+
+</web-app>

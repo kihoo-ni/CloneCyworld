@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.center-layout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-layout-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
