@@ -19,17 +19,17 @@
 
 # 구현 화면
 ***
-1. index.jsp(가장 첫화면)
+### 1. index.jsp(가장 첫화면)
  ![첫화면](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/7dde7c68-1255-4c01-9cc3-bd6a60827e98)
  
 ***
-2. 회원가입
+### 2. 회원가입
 
  아이디, 비밀번호 유효성 체크
  아이디 중복확인 체크
  ![회원가입](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/71af4923-8176-464b-9a54-9734a328d37b)
 ***
-3. 미니홈피 홈
+### 3. 미니홈피 홈
 ![홈](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/f0ae2271-870c-444a-af1a-6537f189d942)
 
 
@@ -42,7 +42,7 @@ BGM 유튜브 api 가져와서 구현함(주크박스에서 노래 등록할 경
 사진첩에 최근 사진 올라오면 [최근올라온사진: 사진명] 나오게끔 함
 
 ***
-4. 방명록
+### 4. 방명록
  ![방명록](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/0a5c9de8-a23a-4431-bb91-d586a0d4c63f)
 
 다른 유저가 자신의 방명록에 글남기기 가능.
@@ -52,15 +52,17 @@ BGM 유튜브 api 가져와서 구현함(주크박스에서 노래 등록할 경
 다른 유저의 경우 본인이 작성한 방명록, 댓글 삭제가능.
 
 *** 
-5. 사진첩+사진올리기
+### 5. 사진첩+사진올리기
   ![사진첩](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/6e093919-7fef-41cb-b749-4f9e4028ff78)
 
    ![사진등록](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/8cc0303b-e4d9-4911-abe8-e6b420adc4df)
-
+사진올리면 사진첩에 올라감
 *** 
-6. 주크박스+음악등록
+### 6. 주크박스+음악등록
  ![주크박스](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/86f7a4ca-1608-4dc0-829f-5798c5a54563)
 ![음악등록](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/01b5503b-728c-46bc-aee1-e7b6b2697fd1)
+듣고싶은 음악 등록가능 
 
+youtube api로 구현 한 것이라 음악등록할 때 youtubeid가 필요함.
 
 ***
