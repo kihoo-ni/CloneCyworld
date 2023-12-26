@@ -18,11 +18,14 @@
 23년 11월 1일~23년 11월 10일
 
 # 구현 화면
+***
 1. index.jsp
+***
 2. Register.jsp
-
+***
  아이디, 비밀번호 유효성 체크
  아이디 중복확인 체크
  ![회원가입](https://github.com/kihoo-ni/CloneCyworld/assets/140569678/71af4923-8176-464b-9a54-9734a328d37b)
-
+***
 3. 
+***
